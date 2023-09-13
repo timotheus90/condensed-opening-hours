@@ -1,0 +1,1 @@
+# condensed-opening-hours
