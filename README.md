@@ -52,7 +52,7 @@ Your function should return a string that condenses the business hours into a si
 #### Output
 
 ```text
-"Mo-Sa 07:00 - 22:00, So 11:00 - 17:00"
+"Mo-Di 10:00 - 20:00, Mi-Do 09:00 - 18:00, Fr-So 09:00 - 14:00"
 ```
 
 ## Tips 🚀
