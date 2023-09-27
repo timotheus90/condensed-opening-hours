@@ -38,16 +38,15 @@ Your function should return a string that condenses the business hours into a si
 
 #### Input
 
-```json
-[
-  {"dayOfWeek": "Montag", "from": "07:00:00", "to": "22:00:00"},
-  {"dayOfWeek": "Dienstag", "from": "07:00:00", "to": "22:00:00"},
-  {"dayOfWeek": "Mittwoch", "from": "07:00:00", "to": "22:00:00"},
-  {"dayOfWeek": "Donnerstag", "from": "07:00:00", "to": "22:00:00"},
-  {"dayOfWeek": "Freitag", "from": "07:00:00", "to": "22:00:00"},
-  {"dayOfWeek": "Samstag", "from": "07:00:00", "to": "22:00:00"},
-  {"dayOfWeek": "Sonntag", "from": "11:00:00", "to": "17:00:00"}
-]
+```go
+	data := `[{"dayOfWeek": "Montag", "from": "10:00:00", "to": "20:00:00"},
+	          {"dayOfWeek": "Dienstag", "from": "10:00:00", "to": "20:00:00"},
+	          {"dayOfWeek": "Mittwoch", "from": "09:00:00", "to": "18:00:00"},
+	          {"dayOfWeek": "Donnerstag", "from": "09:00:00", "to": "18:00:00"},
+	          {"dayOfWeek": "Freitag", "from": "09:00:00", "to": "14:00:00"},
+	          {"dayOfWeek": "Samstag", "from": "09:00:00", "to": "14:00:00"},
+	          {"dayOfWeek": "Sonntag", "from": "09:00:00", "to": "14:00:00"}]`
+
 ```
 
 #### Output
