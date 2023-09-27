@@ -24,7 +24,7 @@ You will receive an array of objects. Each object contains:
 Your function should return a string that condenses the business hours into a simplified representation.
 
 ```text
-"Mo-Fr 07:00 - 22:00, Sa 11:00 - 17:00"
+"Mo-Di 10:00 - 20:00, Mi-Do 09:00 - 18:00, Fr-So 09:00 - 14:00"
 ```
 
 ## Constraints
